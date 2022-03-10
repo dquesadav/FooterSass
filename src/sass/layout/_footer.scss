@@ -1,0 +1,94 @@
+/* ********* */
+/* @FOOTER */
+/* ********* */
+
+// Colores
+.links{
+    background-color: $color_footer_scLinks;
+}
+.logoIdiomas{
+    background-color: $color_footer_scLogo;
+}
+.terminosSocial{
+    background-color: $color_footer_scTerminos;
+}
+
+// Margenes, espacio
+.links{
+
+    &__contenido{
+        padding: 1rem;
+
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logoIdiomas{
+
+    &__contenido{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+.terminosSocial{
+
+    &__contenido{
+        padding: 1rem;
+    }
+}
+
+.centrar{
+    max-width: $anchoMax;
+    margin: 0 auto;
+}
+
+
+// Terminos y condiciones
+.terminosSocial__contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+// Políticas
+.politicas{
+    column-count: 3;
+    column-rule: 2px solid rgb(134, 134, 134);
+
+    > *{
+        display: block;
+    }
+}
+
+
+// Redes Sociales
+
+
+a {
+    text-decoration: none;
+}
+.listas{
+li{
+list-style: none;
+line-height: 30px;
+color: rgb(136, 128, 240);
+}
+    
+}
+.logotexto{
+display: flex;
+align-items: center;
+margin: 0;
+
+
+}
+h5{
+font-size: 20px;
+color: rgb(95, 90, 170);
+}
